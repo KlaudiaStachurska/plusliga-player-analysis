@@ -18,7 +18,7 @@ CREATE TABLE player_match_statistics (
     player_name NVARCHAR(150) NOT NULL,
     team NVARCHAR(150) NOT NULL,
 
-    match_name NVATCHAR(150) NOT NULL,
+    [match] NVATCHAR(150) NOT NULL,
     home_team NVARCHAR(150),
     away_team NVARCHAR(150),
 
